@@ -1,5 +1,5 @@
 component{
-	this.name = 'dummy test';
+	this.name = 'cfpermissions-test';
 
 	this.mappings['/mxunit'] = getDirectoryFromPath(getCurrentTemplatePath()) & "../../mxunit";
 	this.mappings['/tests'] = getDirectoryFromPath(getCurrentTemplatePath());

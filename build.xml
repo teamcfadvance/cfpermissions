@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project basedir="." default="test" name="CFML CI">
+<project basedir="." default="test" name="CFPermissions">
 
   <!--
-    The CFML CI template project.
+    Created from the CFML CI template project.
 
     For integration instructions, see the Github project page:
 
@@ -11,14 +11,14 @@
 
   <!-- you should change this value to a short name for your project
     will be used a symlink so shouldn't contain spaces -->
-  <property name="test.project" value="cfml-ci" />
+  <property name="test.project" value="cfpermissions" />
 
   <!-- these properties can either be passed in from your build server
     (recommended), or set here if you're sure about that -->
 
   <!-- the directory where the web server will be installed, WARNING
     this directory WILL BE DELETED if it already exists -->
-  <property name="work.dir" value="/tmp/work" />
+  <property name="work.dir" value="/tmp/work-cfp" />
 
   <!-- the directory containing your project web root, this will be symlinked
     in to the webserver.  Might be able to be left blank -->
